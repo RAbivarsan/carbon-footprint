@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Carbon Awareness Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🌍 Carbon Footprint Awareness</h1>
+    <p>Reduce your impact. Save the planet.</p>
+</header>
+
+<section class="calculator">
+    <h2>⚡ Carbon Calculator</h2>
+    
+    <label>Daily Travel (km):</label>
+    <input type="number" id="travel" placeholder="e.g. 10">
+
+    <label>Electricity Usage (kWh/day):</label>
+    <input type="number" id="electricity" placeholder="e.g. 5">
+
+    <label>Meat Consumption (meals/day):</label>
+    <input type="number" id="meat" placeholder="e.g. 2">
+
+    <button onclick="calculateCarbon()">Calculate</button>
+
+    <h3 id="result">Your footprint: 0 kg CO₂</h3>
+</section>
+
+<section class="challenges">
+    <h2>🎯 Daily Eco Challenges</h2>
+
+    <div class="challenge" onclick="completeChallenge(this)">
+        🚶 Use public transport
+    </div>
+    <div class="challenge" onclick="completeChallenge(this)">
+        🛍️ No plastic day
+    </div>
+    <div class="challenge" onclick="completeChallenge(this)">
+        💡 Save electricity
+    </div>
+</section>
+
+<section class="score">
+    <h2>🏆 Your Score</h2>
+    <p id="points">Points: 0</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

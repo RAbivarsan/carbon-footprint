@@ -1,0 +1,63 @@
+body {
+    font-family: Arial;
+    background: #0d1117;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #00c853, #64dd17);
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #161b22;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #00c853;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background: #64dd17;
+}
+
+.challenge {
+    background: #21262d;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.challenge:hover {
+    background: #2ea043;
+}
+
+.completed {
+    background: gray !important;
+    text-decoration: line-through;
+}
